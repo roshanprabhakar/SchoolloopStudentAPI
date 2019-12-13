@@ -9,26 +9,25 @@ import java.util.List;
 
 public class Scraper {
 
-    private static final String USERNAME = "";
-    private static final String PASSWORD = "";
+    private static final String USERNAME = "rprabhakar942";
+    private static final String PASSWORD = "TyKoRoshan21@0g";
 
     private static final int FLEX_INDEX = 2;
     private static final int BLOCK_COUNT = 6;
 
     public static void main(String[] args) throws InterruptedException {
 
-//        System.exit(0);
-        ArrayList<Block> blocks = scrapeAssignmentData();
+        HashMap<String, Block> blocks = scrapeAssignmentData();
 
-        for (Block block : blocks) {
-            System.out.println("BLOCK: " + block.getClassName());
-            for (Entry entry : block.getGrades()) {
+        for (String block : blocks.keySet()) {
+            System.out.println("BLOCK: " + blocks.get(block).getClassName());
+            for (Entry entry : blocks.get(block).getGrades()) {
                 System.out.println(entry);
             }
         }
     }
 
-    public static ArrayList<Block> scrapeAssignmentData() throws InterruptedException {
+    public static HashMap<String, Block> scrapeAssignmentData() throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver", "chromedriver78");
         WebDriver driver = new ChromeDriver();
@@ -54,7 +53,8 @@ public class Scraper {
 
         WebElement progressReportLink;
         String blockName;
-        ArrayList<Block> blocks = new ArrayList<>();
+//        ArrayList<Block> blocks = new ArrayList<>();
+        HashMap<String, Block> blocks = new HashMap<>();
         for (int block = 1; block <= BLOCK_COUNT; block++) {
             if (block != FLEX_INDEX) {
                 blockName = driver.findElement(new By.ByXPath("//*[@id=\"container_content\"]/div/div[1]/div[1]/div[2]/div/div[6]/div[" + block + "]/table/tbody/tr/td[2]/a")).getText();
@@ -110,7 +110,7 @@ public class Scraper {
                     }
                     gradeCollection.add(entry);
                 }
-                blocks.add(gradeCollection);
+                blocks.put(blockName, gradeCollection);
                 driver.navigate().back();
             }
         }
