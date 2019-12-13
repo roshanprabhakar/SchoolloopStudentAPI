@@ -4,21 +4,24 @@ import org.openqa.selenium.*;
 
 import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class Scraper {
 
-    private static final String USERNAME = "rprabhakar942";
-    private static final String PASSWORD = "TyKoRoshan21@0g";
+    private static final String USERNAME = "";
+    private static final String PASSWORD = "";
 
     private static final int FLEX_INDEX = 2;
     private static final int BLOCK_COUNT = 6;
 
     public static void main(String[] args) throws InterruptedException {
+
+//        System.exit(0);
         ArrayList<Block> blocks = scrapeAssignmentData();
 
         for (Block block : blocks) {
-            System.out.println("BLOCK -----------");
+            System.out.println("BLOCK: " + block.getClassName());
             for (Entry entry : block.getGrades()) {
                 System.out.println(entry);
             }
@@ -50,22 +53,28 @@ public class Scraper {
 //        }
 
         WebElement progressReportLink;
+        String blockName;
         ArrayList<Block> blocks = new ArrayList<>();
         for (int block = 1; block <= BLOCK_COUNT; block++) {
             if (block != FLEX_INDEX) {
+                blockName = driver.findElement(new By.ByXPath("//*[@id=\"container_content\"]/div/div[1]/div[1]/div[2]/div/div[6]/div[" + block + "]/table/tbody/tr/td[2]/a")).getText();
+
                 progressReportLink = driver.findElement(new By.ByXPath(
                         "//*[@id=\"container_content\"]/div/div[1]/div[1]/div[2]/div/div[6]/div[" + block + "]/table/tbody/tr/td[4]/a"
                 ));
                 progressReportLink.click();
 
+//                System.out.println("here");
                 //Raw text data for title row
                 WebElement tableHead = driver.findElement(By.cssSelector("[class='general_head'] tr"));
 
+//                System.out.println("here");
                 //Raw text data for rows
                 List<WebElement> table = driver.findElements(By.cssSelector("[class='general_body'] tr"));
 
+//                System.out.println("here");
                 Entry entry;
-                Block gradeCollection = new Block();
+                Block gradeCollection = new Block(blockName);
                 for (int row = 1; row <= table.size(); row++) {
 
                     int col = 1;
@@ -73,11 +82,13 @@ public class Scraper {
                     entry = new Entry();
                     while (moreCol) {
                         try {
+//                            System.out.println("here");
                             String header =
                                     driver.findElement(new By.ByXPath(
                                         "//*[@id=\"container_content\"]/div/table[2]/tbody/tr/td[1]/table/thead/tr/th[" + col + "]"
                                     )).getText().replace("\n", " ");
 
+//                            System.out.println("here");
                             String cellValue =
                                     driver.findElement(new By.ByXPath(
                                             "//*[@id=\"container_content\"]/div/table[2]/tbody/tr/td[1]/table/tbody/tr[" + row + "]/td[" + col +  "]"
@@ -87,8 +98,9 @@ public class Scraper {
 //                            System.out.println("value: " + cellValue);
 
                             if (header.contains("Score:")) {
-//                            if (false) {
                                 entry.put(header.replace("\n", ""), Score.parseScore(cellValue));
+//                                System.out.println("cell value: " + cellValue);
+//                                System.out.println("parsed value: " + entry.get(header.replace("\n", "")));
                             } else entry.put(header.replace("\n", ""), cellValue);
 
                             col++;
@@ -114,27 +126,10 @@ public class Scraper {
     }
 
     /*  XPATH PLAYGROUND
-
-        Corresponding header paths:
-        //*[@id="container_content"]/div/table[2]/tbody/tr/td[1]/table/thead/tr/th[1]
-        //*[@id="container_content"]/div/table[2]/tbody/tr/td[1]/table/thead/tr/th[2]
-        //*[@id="container_content"]/div/table[2]/tbody/tr/td[1]/table/thead/tr/th[3]
-        //*[@id="container_content"]/div/table[2]/tbody/tr/td[1]/table/thead/tr/th[4]
-
-        Row 1 Cells:
-        //*[@id="container_content"]/div/table[2]/tbody/tr/td[1]/table/tbody/tr[1]/td[1]
-        //*[@id="container_content"]/div/table[2]/tbody/tr/td[1]/table/tbody/tr[1]/td[2]
-        //*[@id="container_content"]/div/table[2]/tbody/tr/td[1]/table/tbody/tr[1]/td[3]
-
-        Row 2 Cells:
-        //*[@id="container_content"]/div/table[2]/tbody/tr/td[1]/table/tbody/tr[2]/td[1]
-        //*[@id="container_content"]/div/table[2]/tbody/tr/td[1]/table/tbody/tr[2]/td[2]
-        //*[@id="container_content"]/div/table[2]/tbody/tr/td[1]/table/tbody/tr[2]/td[3]
-
-
-
-
-
+        //*[@id="container_content"]/div/div[1]/div[1]/div[2]/div/div[6]/div[1]/table/tbody/tr/td[2]/a
+        //*[@id="container_content"]/div/div[1]/div[1]/div[2]/div/div[6]/div[3]/table/tbody/tr/td[2]/a
+        //*[@id="container_content"]/div/div[1]/div[1]/div[2]/div/div[6]/div[4]/table/tbody/tr/td[2]/a
+        //*[@id="container_content"]/div/div[1]/div[1]/div[2]/div/div[6]/div[6]/table/tbody/tr/td[2]/a
 
 
 

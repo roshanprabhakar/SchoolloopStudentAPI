@@ -17,8 +17,9 @@ public class Score {
     }
 
     public static Score parseScore(String line) {
-
+//        System.out.println("line: " + line);
         int dash = line.indexOf("/");
+//        System.out.println("dash: " + dash);
         int end = 0;
         for (int i = dash + 1; i < line.length(); i++) {
             if (!isDigit(line.substring(i, i + 1)) && line.charAt(i) != ' ' && line.charAt(i) != '.') {
@@ -26,7 +27,7 @@ public class Score {
                 break;
             }
         }
-
+//        System.out.println("end: " + end);
         int beginning = 0;
         for (int i = dash - 1; i >= 0; i--) {
             if (!isDigit(line.substring(i, i + 1)) && line.charAt(i) != ' ' && line.charAt(i) != '.') {
@@ -34,11 +35,11 @@ public class Score {
                 break;
             }
         }
+//        System.out.println("beginning: " + beginning);
+        String[] total = line.substring(beginning, end).trim().split(" ");
+//        System.out.println("total: " + Arrays.toString(total));
 
-        String[] total = line.substring(beginning, end).split(" ");
-        String[] score = Arrays.copyOfRange(total, 1, 3);
-
-        return new Score(Double.parseDouble(score[0]), Double.parseDouble(score[1]));
+        return new Score(Double.parseDouble(total[1]), Double.parseDouble(total[3]));
     }
 
     private static boolean isDigit(String ch) {

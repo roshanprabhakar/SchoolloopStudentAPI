@@ -1,15 +1,27 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Block {
 
     private ArrayList<Entry> grades;
+    private HashMap<String, Double> weightages;
+    private String className;
 
-    public Block() {
+    public Block(String className) {
         grades = new ArrayList<>();
+        this.className = className;
+    }
+
+    public void loadWeightages(HashMap<String, Double> weightages) {
+        this.weightages = weightages;
     }
 
     public ArrayList<Entry> getGrades() {
         return grades;
+    }
+
+    public String getClassName() {
+        return className;
     }
 
     public void add(Entry entry) {
