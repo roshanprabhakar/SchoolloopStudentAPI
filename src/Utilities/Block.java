@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class Block {
 
-    protected ArrayList<Entry> entries;
+    protected ArrayList<Entry> entries; //core data for all block instances and children: contains grade data as viewed in GRADES
     protected String className;
 
     public Block(String className) {

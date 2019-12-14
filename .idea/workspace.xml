@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d669f5f7-80d5-4e0d-a9b4-7a4707c0c9cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classtemplates/APLAC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classtemplates/APLAC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classtemplates/APLAC.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +103,7 @@
       <updated>1576117673138</updated>
       <workItem from="1576117678212" duration="8606000" />
       <workItem from="1576192191815" duration="13731000" />
-      <workItem from="1576266157107" duration="15375000" />
+      <workItem from="1576266157107" duration="15704000" />
     </task>
     <task id="LOCAL-00001" summary="added block name collection">
       <created>1576223635289</created>
@@ -132,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576300156440</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added template usage for APLAC">
+      <created>1576301782518</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576301782518</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +164,7 @@
     <MESSAGE value="changed block data structure to map" />
     <MESSAGE value="created a template package, as well as inheritance chains for different grading styles (weighted vs nonweighted)" />
     <MESSAGE value="added descriptor comments to main" />
-    <option name="LAST_COMMIT_MESSAGE" value="added descriptor comments to main" />
+    <MESSAGE value="added template usage for APLAC" />
+    <option name="LAST_COMMIT_MESSAGE" value="added template usage for APLAC" />
   </component>
 </project>
