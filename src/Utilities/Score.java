@@ -1,6 +1,4 @@
-import com.google.common.collect.DiscreteDomain;
-
-import java.util.Arrays;
+package Utilities;
 
 public class Score {
 
@@ -10,10 +8,6 @@ public class Score {
     public Score(double earned, double possible) {
         this.earned = earned;
         this.possible = possible;
-    }
-
-    public double percentage() {
-        return earned / possible;
     }
 
     public static Score parseScore(String line) {
@@ -51,7 +45,27 @@ public class Score {
         }
     }
 
+    /**
+     * deals with input like this: (10.0/20.0)
+     */
+    public static Score readScore(String line) {
+        String[] parts = line.substring(1, line.length() - 1).split("/");
+        return new Score(Double.parseDouble(parts[0]), Double.parseDouble(parts[1]));
+    }
+
     public String toString() {
         return "(" + earned + "/" + possible + ")";
+    }
+
+    public double getEarned() {
+        return earned;
+    }
+
+    public double getPossible() {
+        return possible;
+    }
+
+    public double percentage() {
+        return earned / possible;
     }
 }

@@ -1,33 +1,23 @@
+package Utilities;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.*;
 
-import java.sql.SQLOutput;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
 public class Scraper {
 
-    private static final String USERNAME = "rprabhakar942";
-    private static final String PASSWORD = "TyKoRoshan21@0g";
+    private String USERNAME;
+    private String PASSWORD;
 
     private static final int FLEX_INDEX = 2;
     private static final int BLOCK_COUNT = 6;
 
-    public static void main(String[] args) throws InterruptedException {
-
-        HashMap<String, Block> blocks = scrapeAssignmentData();
-
-        for (String block : blocks.keySet()) {
-            System.out.println("BLOCK: " + blocks.get(block).getClassName());
-            for (Entry entry : blocks.get(block).getGrades()) {
-                System.out.println(entry);
-            }
-        }
-    }
-
-    public static HashMap<String, Block> scrapeAssignmentData() throws InterruptedException {
+    public static HashMap<String, Block> scrapeGradeData(String USERNAME, String PASSWORD) throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver", "chromedriver78");
         WebDriver driver = new ChromeDriver();
@@ -66,7 +56,7 @@ public class Scraper {
 
 //                System.out.println("here");
                 //Raw text data for title row
-                WebElement tableHead = driver.findElement(By.cssSelector("[class='general_head'] tr"));
+//                WebElement tableHead = driver.findElement(By.cssSelector("[class='general_head'] tr"));
 
 //                System.out.println("here");
                 //Raw text data for rows
@@ -86,7 +76,7 @@ public class Scraper {
                             String header =
                                     driver.findElement(new By.ByXPath(
                                         "//*[@id=\"container_content\"]/div/table[2]/tbody/tr/td[1]/table/thead/tr/th[" + col + "]"
-                                    )).getText().replace("\n", " ");
+                                    )).getText().replace("\n", " ").replace(":", "");
 
 //                            System.out.println("here");
                             String cellValue =
@@ -97,7 +87,7 @@ public class Scraper {
 //                            System.out.println("header: " + header);
 //                            System.out.println("value: " + cellValue);
 
-                            if (header.contains("Score:")) {
+                            if (header.contains("Score")) {
                                 entry.put(header.replace("\n", ""), Score.parseScore(cellValue));
 //                                System.out.println("cell value: " + cellValue);
 //                                System.out.println("parsed value: " + entry.get(header.replace("\n", "")));
@@ -109,36 +99,52 @@ public class Scraper {
                         }
                     }
                     gradeCollection.add(entry);
+//                    return null;
                 }
                 blocks.put(blockName, gradeCollection);
+//                blocks.get(blockName).display();
                 driver.navigate().back();
+//                REMOVE
+//                return blocks;
             }
         }
         driver.quit();
-
         return blocks;
     }
 
-    //UTIL
-    public static void highLighterMethod(WebDriver driver, WebElement element){
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].setAttribute('style', 'background: white; border: 2px solid red;');", element);
+    public static HashMap<String, Block> readGradeData(String filepath) {
+
+        HashMap<String, Block> map = new HashMap<>();
+        ArrayList<String> lines = Utils.readLines(filepath); assert lines != null;
+
+        String previousBlock = null;
+        for (int i = 0; i < lines.size(); i++) {
+            if (!lines.get(i).contains("{")) {
+                map.put(lines.get(i).replace("\n", ""),
+                        new Block(lines.get(i).replace("\n", "")));
+                previousBlock = lines.get(i).replace("\n", "");
+            } else map.get(previousBlock).add(Entry.parseEntry(lines.get(i).replace("\n", "")));
+        }
+
+        return map;
     }
 
-    /*  XPATH PLAYGROUND
-        //*[@id="container_content"]/div/div[1]/div[1]/div[2]/div/div[6]/div[1]/table/tbody/tr/td[2]/a
-        //*[@id="container_content"]/div/div[1]/div[1]/div[2]/div/div[6]/div[3]/table/tbody/tr/td[2]/a
-        //*[@id="container_content"]/div/div[1]/div[1]/div[2]/div/div[6]/div[4]/table/tbody/tr/td[2]/a
-        //*[@id="container_content"]/div/div[1]/div[1]/div[2]/div/div[6]/div[6]/table/tbody/tr/td[2]/a
-
-
-
-
-
-
-
-
-
-    */
+    public static void writeMap(HashMap<String, Block> blocks, String outfile) {
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(new File(outfile)));
+            Block block;
+            for (String key : blocks.keySet()) {
+                block = blocks.get(key);
+                writer.write(block.getClassName() + "\n");
+                for (Entry entry : block.getEntries()) {
+                    writer.write(entry.toString() + "\n");
+                }
+                writer.write("\n");
+            }
+            writer.close();
+        } catch (IOException e) {
+            System.err.println("Could not write map data to disk");
+        }
+    }
 }
 
