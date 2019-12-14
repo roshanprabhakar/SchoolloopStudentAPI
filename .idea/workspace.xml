@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d669f5f7-80d5-4e0d-a9b4-7a4707c0c9cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/temp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRADES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GRADES.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utilities/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Block.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classtemplates/APLAC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classtemplates/APLAC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/Scraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Scraper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/WeightedBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/WeightedBlock.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +108,8 @@
       <updated>1576117673138</updated>
       <workItem from="1576117678212" duration="8606000" />
       <workItem from="1576192191815" duration="13731000" />
-      <workItem from="1576266157107" duration="15704000" />
+      <workItem from="1576266157107" duration="18715000" />
+      <workItem from="1576360489428" duration="1069000" />
     </task>
     <task id="LOCAL-00001" summary="added block name collection">
       <created>1576223635289</created>
@@ -140,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576301782518</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added clarifications to BLOCK">
+      <created>1576301889275</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576301889275</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +178,7 @@
     <MESSAGE value="created a template package, as well as inheritance chains for different grading styles (weighted vs nonweighted)" />
     <MESSAGE value="added descriptor comments to main" />
     <MESSAGE value="added template usage for APLAC" />
-    <option name="LAST_COMMIT_MESSAGE" value="added template usage for APLAC" />
+    <MESSAGE value="added clarifications to BLOCK" />
+    <option name="LAST_COMMIT_MESSAGE" value="added clarifications to BLOCK" />
   </component>
 </project>

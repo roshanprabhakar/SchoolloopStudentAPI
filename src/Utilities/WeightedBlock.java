@@ -17,6 +17,10 @@ public abstract class WeightedBlock extends Block {
         this.categories = new HashMap<>();
     }
 
+    public void addCategory(String category, double weight) {
+        categories.put(category, weight);
+    }
+
     private Score getScore(String category) {
         double earned = 0;
         double total = 0;
@@ -40,8 +44,10 @@ public abstract class WeightedBlock extends Block {
     }
 
     public void analyze() {
-        System.out.println("TOTAL GRADE: " + calculateGrade());
         System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println("BLOCK: " + className + " ------------------");
         for (String category : categories.keySet()) {
             System.out.println("-----------------------------------------");
             System.out.println("CATEGORY: " + category);
@@ -52,6 +58,9 @@ public abstract class WeightedBlock extends Block {
             System.out.println("-----------------------------------------");
             System.out.println();
         }
+        System.out.println("BLOCK: " + className + " ------------------");
+        System.out.println("TOTAL GRADE: " + calculateGrade());
+        System.out.println();
     }
 
     public abstract void defineCategories();

@@ -1,4 +1,4 @@
-AP Lang/Comp 90.83
+AP Lang/Comp
 {Comment=, Score=(0.0/20.0), Submission=, Due=8/20/19, Assessment=Practice Summer Argument}
 {Comment=, Score=(20.0/20.0), Submission=, Due=8/21/19, Assessment=Practice Summer Synthesis Essay}
 {Comment=, Score=(20.0/20.0), Submission=, Due=8/21/19, Assessment=Practice Summer Rhetorical Essay}
@@ -39,7 +39,7 @@ AP Lang/Comp 90.83
 {Comment=, Score=(15.0/15.0), Submission=, Due=11/27/19, Assessment=Practice Baldwin Message}
 {Comment=, Score=(20.0/20.0), Submission=, Due=12/4/19, Assessment=Practice Baldwin Coates Williams Essay Rough Draft}
 
-AP Calculus BC 92.32
+AP Calculus BC
 {Comment=, Score=(10.0/10.0), Submission=, Due=8/19/19, Assessment=Homework/Classwork 1. Summer HW}
 {Comment=, Score=(5.0/5.0), Submission=, Due=8/23/19, Assessment=Homework/Classwork 3. Syllabus signed}
 {Comment=, Score=(10.0/10.0), Submission=, Due=8/23/19, Assessment=Homework/Classwork 2. Mathography}
@@ -66,7 +66,7 @@ AP Calculus BC 92.32
 {Comment=, Score=(10.0/10.0), Submission=, Due=12/9/19, Assessment=Homework/Classwork Problem Set 14}
 {Comment=, Score=(22.0/25.0), Submission=, Due=12/11/19, Assessment=Unit Assessments Unit 5 Quiz}
 
-US History AP 88.74
+US History AP
 {Comment=, Score=(15.0/15.0), Submission=, Due=8/26/19, Assessment=groupwork colony infomercial}
 {Comment=, Score=(13.0/13.0), Submission=, Due=8/26/19, Assessment=Quiz quiz, 1/1}
 {Comment=, Score=(10.0/10.0), Submission=, Due=8/26/19, Assessment=Homework syllabus}
@@ -94,7 +94,7 @@ US History AP 88.74
 {Comment=, Score=(23.0/29.0), Submission=, Due=12/16/19, Assessment=Test test, unit 4}
 {Comment=, Score=(20.0/15.0), Submission=, Due=12/16/19, Assessment=Discussion soc sem, unit 4}
 
-Physics AP 91.0
+Physics AP
 {Comment=, Score=(4.8/5.0), Submission=, Due=8/21/19, Assessment=Problem Solving Grp Student Info, Grade=Score: A}
 {Comment=, Score=(4.8/5.0), Submission=, Due=8/21/19, Assessment=Problem Solving Grp Materials, Grade=Score: A}
 {Comment=, Score=(4.8/5.0), Submission=, Due=8/21/19, Assessment=Problem Solving Grp Expectations Qs, Grade=Score: A}
@@ -141,7 +141,7 @@ Physics AP 91.0
 {Comment=, Score=(48.2/50.0), Submission=, Due=12/12/19, Assessment=Labs Activities Activity - Atwood Machine, Grade=Score: A}
 {Comment=, Score=(96.5/100.0), Submission=, Due=12/12/19, Assessment=Labs Activities Lab - Air Resistance, Grade=Score: A}
 
-Spanish 4 H 94.8
+Spanish 4 H
 {Comment=, Score=(30.0/30.0), Submission=, Due=8/23/19, Assessment=Participation/Preparedness Participation Week 1}
 {Comment=, Score=(30.0/30.0), Submission=, Due=8/30/19, Assessment=Participation/Preparedness Participation Week 2}
 {Comment=, Score=(20.0/20.0), Submission=, Due=9/3/19, Assessment=Participation/Preparedness Galería de creadores 1}
@@ -170,4 +170,3 @@ Spanish 4 H 94.8
 {Comment=, Score=(16.0/21.0), Submission=, Due=12/5/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Prueba de subjuntivo (L4) y reflexivos}
 {Comment=, Score=(30.0/30.0), Submission=, Due=12/6/19, Assessment=Participation/Preparedness Participation Week 16}
 {Comment=Excelente. Leíste mucho, pero excelente., Score=(41.0/46.0), Submission=, Due=12/9/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Lección 4 (Presentación oral)}
-

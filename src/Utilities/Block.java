@@ -8,9 +8,15 @@ public class Block {
     protected ArrayList<Entry> entries; //core data for all block instances and children: contains grade data as viewed in GRADES
     protected String className;
 
+    protected double gradeOnSchoolloop;
+
     public Block(String className) {
         entries = new ArrayList<>();
         this.className = className;
+    }
+
+    public void setGradeOnSchoolloop(double grade) {
+        this.gradeOnSchoolloop = grade;
     }
 
     public Block(ArrayList<Entry> entries, String className) {
@@ -26,12 +32,16 @@ public class Block {
         return className;
     }
 
+    public double getGradeOnSchoolloop() {
+        return gradeOnSchoolloop;
+    }
+
     public void add(Entry entry) {
         entries.add(entry);
     }
 
     public String toString() {
-        return entries.toString();
+        return entries.toString() + "grade on schoolloop: " + gradeOnSchoolloop;
     }
 
     public void display() {

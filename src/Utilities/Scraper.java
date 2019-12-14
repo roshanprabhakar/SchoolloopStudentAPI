@@ -6,6 +6,7 @@ import org.openqa.selenium.*;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -101,6 +102,12 @@ public class Scraper {
                     gradeCollection.add(entry);
 //                    return null;
                 }
+
+                WebElement gradeOnSchooLoop = driver.findElement(new By.ByXPath("//*[@id=\"container_content\"]/div/table[1]/tbody/tr[2]/td[1]/b[2]"));
+                gradeCollection.setGradeOnSchoolloop(Double.parseDouble(
+                        gradeOnSchooLoop.getText().replace("\n", "").replace(" ", "").replace("%", ""))
+                );
+
                 blocks.put(blockName, gradeCollection);
 //                blocks.get(blockName).display();
                 driver.navigate().back();
@@ -111,6 +118,14 @@ public class Scraper {
         driver.quit();
         return blocks;
     }
+
+    /*
+    XPATH PLAYGROUND
+    //*[@id="container_content"]/div/table[1]/tbody/tr[2]/td[1]/b[2]
+    //*[@id="container_content"]/div/table[1]/tbody/tr[2]/td[1]/b[2]
+    //*[@id="container_content"]/div/table[1]/tbody/tr[2]/td[1]/b[2]
+    //*[@id="container_content"]/div/table[1]/tbody/tr[2]/td[1]/b[2]
+     */
 
     public static HashMap<String, Block> readGradeData(String filepath) {
 
@@ -123,6 +138,8 @@ public class Scraper {
                 map.put(lines.get(i).replace("\n", ""),
                         new Block(lines.get(i).replace("\n", "")));
                 previousBlock = lines.get(i).replace("\n", "");
+                String[] options = lines.get(i).trim().replace("\n", "").split(" ");
+                if (options.length > 1) map.get(previousBlock).setGradeOnSchoolloop(Double.parseDouble(options[options.length - 1]));
             } else map.get(previousBlock).add(Entry.parseEntry(lines.get(i).replace("\n", "")));
         }
 
@@ -135,7 +152,7 @@ public class Scraper {
             Block block;
             for (String key : blocks.keySet()) {
                 block = blocks.get(key);
-                writer.write(block.getClassName() + "\n");
+                writer.write(block.getClassName() + " " + block.getGradeOnSchoolloop() + "\n");
                 for (Entry entry : block.getEntries()) {
                     writer.write(entry.toString() + "\n");
                 }
