@@ -21,19 +21,26 @@ public class Main {
         //Ignore empty map entry, soley used for comparison
         HashMap<String, Block> blocks = Scraper.readGradeData("GRADES.txt");
 
-        PhysicsAP physics = new PhysicsAP(blocks.get(getFromBlocks("Physics", blocks)));
-        System.out.println(physics.getGradeOnSchoolloop());
-        physics.analyze();
+//        PhysicsAP physics = new PhysicsAP(blocks.get(getFromBlocks("Physics", blocks))); //takes in block to account for downcasting
+//        physics.analyze();
+//
+//        Entry finalExam = new Entry();
+//        finalExam.put("Assessment", "Tests Quizzes Final Exam");
+//        finalExam.put("Score", new Score(450,600));
+//
+//        physics.add(finalExam);
+//        physics.analyze();
+
+        APLAC aplac = new APLAC(blocks.get(getFromBlocks("AP Lang/Comp", blocks))); //takes in block to account for downcasting
+        aplac.analyze();
 
         Entry finalExam = new Entry();
-        finalExam.put("Assessment", "Tests Quizzes Final Exam");
-        finalExam.put("Score", new Score(450,600));
+        finalExam.put("Assessment", "Mastery final exam");
+        finalExam.put("Score", new Score(70,100));
 
-        physics.add(finalExam);
-        physics.analyze();
+        aplac.add(finalExam);
+        aplac.analyze();
 
-//        APLAC aplac = new APLAC(blocks.get("AP Lang/Comp"));
-//        aplac.analyze();
     }
 
     public static String getFromBlocks(String key, HashMap<String, Block> map) {

@@ -6,7 +6,7 @@ import Utilities.WeightedBlock;
 public class APLAC extends WeightedBlock {
 
     public APLAC(Block blockData) {
-        super(blockData.getEntries(), blockData.getClassName());
+        super(blockData.getEntries(), blockData.getClassName(), blockData.getGradeOnSchoolloop());
         defineCategories();
     }
 

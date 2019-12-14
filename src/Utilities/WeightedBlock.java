@@ -12,9 +12,10 @@ public abstract class WeightedBlock extends Block {
         this.categories = new HashMap<>();
     }
 
-    public WeightedBlock(ArrayList<Entry> entries, String className) {
+    public WeightedBlock(ArrayList<Entry> entries, String className, double gradeOnSchoolpoop) {
         super(entries, className);
         this.categories = new HashMap<>();
+        this.gradeOnSchoolloop = gradeOnSchoolpoop;
     }
 
     public void addCategory(String category, double weight) {
@@ -48,6 +49,7 @@ public abstract class WeightedBlock extends Block {
         System.out.println();
         System.out.println();
         System.out.println("BLOCK: " + className + " ------------------");
+        System.out.println("CALCULATED TOTAL GRADE: " + calculateGrade());
         for (String category : categories.keySet()) {
             System.out.println("-----------------------------------------");
             System.out.println("CATEGORY: " + category);
@@ -59,7 +61,7 @@ public abstract class WeightedBlock extends Block {
             System.out.println();
         }
         System.out.println("BLOCK: " + className + " ------------------");
-        System.out.println("TOTAL GRADE: " + calculateGrade());
+        System.out.println("CALCULATED TOTAL GRADE: " + calculateGrade());
         System.out.println();
     }
 

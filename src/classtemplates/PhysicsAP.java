@@ -5,7 +5,7 @@ import Utilities.*;
 public class PhysicsAP extends WeightedBlock {
 
     public PhysicsAP(Block blockData) {
-        super(blockData.getEntries(), blockData.getClassName());
+        super(blockData.getEntries(), blockData.getClassName(), blockData.getGradeOnSchoolloop());
         defineCategories();
     }
 
