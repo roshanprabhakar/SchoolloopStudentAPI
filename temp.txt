@@ -1,172 +1,186 @@
-AP Lang/Comp
-{Comment=, Score=(0.0/20.0), Submission=, Due=8/20/19, Assessment=Practice Summer Argument}
-{Comment=, Score=(20.0/20.0), Submission=, Due=8/21/19, Assessment=Practice Summer Synthesis Essay}
-{Comment=, Score=(20.0/20.0), Submission=, Due=8/21/19, Assessment=Practice Summer Rhetorical Essay}
-{Comment=, Score=(20.0/20.0), Submission=, Due=8/21/19, Assessment=Practice Colvin and Ericsson Breakdown}
-{Comment=, Score=(10.0/10.0), Submission=, Due=8/23/19, Assessment=Practice Social Chapter 1}
-{Comment=, Score=(20.0/20.0), Submission=, Due=8/28/19, Assessment=Practice Learning and Education Outline and Paragraph}
-{Comment=, Score=(5.0/5.0), Submission=, Due=8/29/19, Assessment=Practice Honesty Policy}
-{Comment=, Score=(5.0/5.0), Submission=, Due=8/29/19, Assessment=Practice Class Policies}
-{Comment=, Score=(20.0/20.0), Submission=, Due=8/30/19, Assessment=Practice Google Argument Essay}
-{Comment=, Score=(20.0/20.0), Submission=, Due=9/6/19, Assessment=Mastery Carr Rhetorical Analysis Essay}
-{Comment=, Score=(5.0/5.0), Submission=, Due=9/6/19, Assessment=Practice Sign Up at College Board Website for APLAC}
-{Comment=, Score=(20.0/20.0), Submission=, Due=9/11/19, Assessment=Practice Mukherjee Rhetorical Analysis Essay}
-{Comment=, Score=(20.0/20.0), Submission=, Due=9/13/19, Assessment=Practice Assimilation Synthesis Essay}
-{Comment=, Score=(10.0/10.0), Submission=, Due=9/18/19, Assessment=Practice ITNOL - Organizer}
-{Comment=, Score=(20.0/20.0), Submission=, Due=9/20/19, Assessment=Practice ITNOL - First Draft - Rhetorical Essay}
-{Comment=, Score=(4.0/5.0), Submission=, Due=9/26/19, Assessment=Mastery Vocab Quiz 1-9}
-{Comment=, Score=(15.0/15.0), Submission=, Due=9/27/19, Assessment=Practice Friendship Defined and Illustrated}
-{Comment=, Score=(19.0/20.0), Submission=, Due=9/30/19, Assessment=Mastery ITNOL - Analysis Essay}
-{Comment=, Score=(20.0/20.0), Submission=, Due=10/2/19, Assessment=Practice Friendship and Education Essay}
-{Comment=, Score=(14.0/16.0), Submission=, Due=10/4/19, Assessment=Mastery Rhetorical Analysis Test - Speeches}
-{Comment=, Score=(20.0/20.0), Submission=, Due=10/4/19, Assessment=Practice Lewis Friendship Writing Paragraphs 5-9}
-{Comment=, Score=(18.0/20.0), Submission=, Due=10/9/19, Assessment=Practice Paideia and Friendship Essay}
-{Comment=, Score=(4.0/5.0), Submission=, Due=10/10/19, Assessment=Mastery Vocab Quiz 10-18 Rhetorical Terms}
-{Comment=, Score=(15.0/15.0), Submission=, Due=10/11/19, Assessment=Practice Breakfast Club Character Analysis}
-{Comment=, Score=(20.0/20.0), Submission=, Due=10/16/19, Assessment=Practice Commentary on Albright Response}
-{Comment=, Score=(13.5/15.0), Submission=, Due=10/18/19, Assessment=Practice Chosen Chap 1 Interpretation vs Analysis}
-{Comment=, Score=(10.0/10.0), Submission=, Due=10/22/19, Assessment=Practice Chosen Characterization Tracker Pages 32-64}
-{Comment=, Score=(25.0/25.0), Submission=, Due=10/23/19, Assessment=Practice Lewis Friendship Essay Excerpt II}
-{Comment=, Score=(20.0/20.0), Submission=, Due=10/25/19, Assessment=Practice Characterization Tracker 64-111}
-{Comment=, Score=(0.0/10.0), Submission=, Due=10/30/19, Assessment=Practice Characterization Tracker 112-148}
-{Comment=, Score=(10.0/10.0), Submission=, Due=10/31/19, Assessment=Practice Relationship Tracker pages 149-174}
-{Comment=, Score=(21.0/25.0), Submission=, Due=11/1/19, Assessment=Practice Nehamas Lewis Comparison Essay}
-{Comment=, Score=(10.0/10.0), Submission=, Due=11/8/19, Assessment=Practice Argument Practice Social vs Leadership Challenge}
-{Comment=, Score=(20.0/20.0), Submission=, Due=11/15/19, Assessment=Practice Relationship Tracker 234-291}
-{Comment=, Score=(20.0/20.0), Submission=, Due=11/18/19, Assessment=Mastery Friendship Group Essay}
-{Comment=, Score=(25.0/25.0), Submission=, Due=11/22/19, Assessment=Practice Coates Williams Essay}
-{Comment=, Score=(7.5/12.0), Submission=, Due=11/25/19, Assessment=Mastery The Chosen Timed Write}
-{Comment=, Score=(15.0/15.0), Submission=, Due=11/27/19, Assessment=Practice Baldwin Message}
-{Comment=, Score=(20.0/20.0), Submission=, Due=12/4/19, Assessment=Practice Baldwin Coates Williams Essay Rough Draft}
+AP Lang/Comp 89.44
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="8/20/19", "Assessment"="Practice Summer Argument"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="8/21/19", "Assessment"="Practice Summer Synthesis Essay"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="8/21/19", "Assessment"="Practice Summer Rhetorical Essay"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="8/21/19", "Assessment"="Practice Colvin and Ericsson Breakdown"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="8/23/19", "Assessment"="Practice Social Chapter 1"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="8/28/19", "Assessment"="Practice Learning and Education Outline and Paragraph"}
+{"Comment"="", "Score"="(5.0/5.0)", "Submission"="", "Due"="8/29/19", "Assessment"="Practice Honesty Policy"}
+{"Comment"="", "Score"="(5.0/5.0)", "Submission"="", "Due"="8/29/19", "Assessment"="Practice Class Policies"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="8/30/19", "Assessment"="Practice Google Argument Essay"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="9/6/19", "Assessment"="Mastery Carr Rhetorical Analysis Essay"}
+{"Comment"="", "Score"="(5.0/5.0)", "Submission"="", "Due"="9/6/19", "Assessment"="Practice Sign Up at College Board Website for APLAC"}
+{"Comment"="", "Score"="(18.0/20.0)", "Submission"="", "Due"="9/11/19", "Assessment"="Practice Mukherjee Rhetorical Analysis Essay"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="9/13/19", "Assessment"="Practice Assimilation Synthesis Essay"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="9/18/19", "Assessment"="Practice ITNOL - Organizer"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="9/20/19", "Assessment"="Practice ITNOL - First Draft - Rhetorical Essay"}
+{"Comment"="", "Score"="(2.0/5.0)", "Submission"="", "Due"="9/26/19", "Assessment"="Mastery Vocab Quiz 1-9"}
+{"Comment"="", "Score"="(15.0/15.0)", "Submission"="", "Due"="9/27/19", "Assessment"="Practice Friendship Defined and Illustrated"}
+{"Comment"="", "Score"="(19.0/20.0)", "Submission"="", "Due"="9/30/19", "Assessment"="Mastery ITNOL - Analysis Essay"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="10/2/19", "Assessment"="Practice Friendship and Education Essay"}
+{"Comment"="", "Score"="(13.0/16.0)", "Submission"="", "Due"="10/4/19", "Assessment"="Mastery Rhetorical Analysis Test - Speeches"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="10/4/19", "Assessment"="Practice Lewis Friendship Writing Paragraphs 5-9"}
+{"Comment"="", "Score"="(18.0/20.0)", "Submission"="", "Due"="10/9/19", "Assessment"="Practice Paideia and Friendship Essay"}
+{"Comment"="", "Score"="(4.0/5.0)", "Submission"="", "Due"="10/10/19", "Assessment"="Mastery Vocab Quiz 10-18 Rhetorical Terms"}
+{"Comment"="", "Score"="(15.0/15.0)", "Submission"="", "Due"="10/11/19", "Assessment"="Practice Breakfast Club Character Analysis"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="10/16/19", "Assessment"="Practice Commentary on Albright Response"}
+{"Comment"="", "Score"="(15.0/15.0)", "Submission"="", "Due"="10/18/19", "Assessment"="Practice Chosen Chap 1 Interpretation vs Analysis"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/22/19", "Assessment"="Practice Chosen Characterization Tracker Pages 32-64"}
+{"Comment"="", "Score"="(25.0/25.0)", "Submission"="", "Due"="10/23/19", "Assessment"="Practice Lewis Friendship Essay Excerpt II"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="10/25/19", "Assessment"="Practice Characterization Tracker 64-111"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/30/19", "Assessment"="Practice Characterization Tracker 112-148"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/31/19", "Assessment"="Practice Relationship Tracker pages 149-174"}
+{"Comment"="", "Score"="(25.0/25.0)", "Submission"="", "Due"="11/1/19", "Assessment"="Practice Nehamas Lewis Comparison Essay"}
+{"Comment"="", "Score"="(9.0/10.0)", "Submission"="", "Due"="11/8/19", "Assessment"="Practice Argument Practice Social vs Leadership Challenge"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="11/15/19", "Assessment"="Practice Relationship Tracker 234-291"}
+{"Comment"="", "Score"="(16.8/20.0)", "Submission"="", "Due"="11/18/19", "Assessment"="Mastery Friendship Group Essay"}
+{"Comment"="", "Score"="(25.0/25.0)", "Submission"="", "Due"="11/22/19", "Assessment"="Practice Coates Williams Essay"}
+{"Comment"="", "Score"="(10.5/12.0)", "Submission"="", "Due"="11/25/19", "Assessment"="Mastery The Chosen Timed Write"}
+{"Comment"="", "Score"="(15.0/15.0)", "Submission"="", "Due"="11/27/19", "Assessment"="Practice Baldwin Message"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="12/4/19", "Assessment"="Practice Baldwin Coates Williams Essay Rough Draft"}
 
-AP Calculus BC
-{Comment=, Score=(10.0/10.0), Submission=, Due=8/19/19, Assessment=Homework/Classwork 1. Summer HW}
-{Comment=, Score=(5.0/5.0), Submission=, Due=8/23/19, Assessment=Homework/Classwork 3. Syllabus signed}
-{Comment=, Score=(10.0/10.0), Submission=, Due=8/23/19, Assessment=Homework/Classwork 2. Mathography}
-{Comment=, Score=(10.0/10.0), Submission=, Due=8/26/19, Assessment=Homework/Classwork 4. Problem Set 1}
-{Comment=, Score=(10.0/10.0), Submission=, Due=9/4/19, Assessment=Homework/Classwork 5. Problem Set 2}
-{Comment=, Score=(95.0/100.0), Submission=, Due=9/6/19, Assessment=Unit Assessments Unit 1: Limits Test}
-{Comment=, Score=(10.0/10.0), Submission=, Due=9/9/19, Assessment=Homework/Classwork 6. PS3}
-{Comment=, Score=(10.0/10.0), Submission=, Due=9/16/19, Assessment=Homework/Classwork 7. Problem Set 4}
-{Comment=, Score=(12.0/15.0), Submission=, Due=9/18/19, Assessment=Unit Assessments Unit 2 Quiz}
-{Comment=, Score=(10.0/10.0), Submission=, Due=9/25/19, Assessment=Homework/Classwork 8. Problem Set 5}
-{Comment=, Score=(95.0/100.0), Submission=, Due=9/27/19, Assessment=Unit Assessments Unit 2 Test}
-{Comment=, Score=(8.0/10.0), Submission=, Due=10/1/19, Assessment=Homework/Classwork 9. Problem Set 6}
-{Comment=, Score=(3.0/3.0), Submission=, Due=10/4/19, Assessment=Unit Assessments Unit 3 Quiz}
-{Comment=, Score=(10.0/10.0), Submission=, Due=10/7/19, Assessment=Homework/Classwork 10. Problem Set 7}
-{Comment=, Score=(10.0/10.0), Submission=, Due=10/15/19, Assessment=Homework/Classwork 11. Problem Set 8}
-{Comment=, Score=(93.0/100.0), Submission=, Due=10/18/19, Assessment=Unit Assessments Unit 3 Test}
-{Comment=, Score=(10.0/10.0), Submission=, Due=10/28/19, Assessment=Homework/Classwork Problem Set 9}
-{Comment=, Score=(10.0/10.0), Submission=, Due=11/4/19, Assessment=Homework/Classwork Problem Set 10}
-{Comment=, Score=(10.0/10.0), Submission=, Due=11/11/19, Assessment=Homework/Classwork Problem Set 11}
-{Comment=, Score=(15.5/16.0), Submission=, Due=11/18/19, Assessment=Unit Assessments Unit 4 Quiz}
-{Comment=, Score=(10.0/10.0), Submission=, Due=11/18/19, Assessment=Homework/Classwork Problem Set 12}
-{Comment=, Score=(10.0/10.0), Submission=, Due=11/19/19, Assessment=Homework/Classwork Problem Set 13}
-{Comment=, Score=(84.0/100.0), Submission=, Due=12/4/19, Assessment=Unit Assessments Unit 4 Test}
-{Comment=, Score=(10.0/10.0), Submission=, Due=12/9/19, Assessment=Homework/Classwork Problem Set 14}
-{Comment=, Score=(22.0/25.0), Submission=, Due=12/11/19, Assessment=Unit Assessments Unit 5 Quiz}
+US History AP 91.05
+{"Submission"="", "Due"="8/26/19", "Assessment"="groupwork colony infomercial"}
+{"Submission"="", "Due"="8/26/19", "Assessment"="Quiz quiz, 1/1"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="8/26/19", "Assessment"="Homework syllabus"}
+{"Comment"="", "Score"="(10.0/12.0)", "Submission"="", "Due"="9/2/19", "Assessment"="Quiz Quiz, 1/2"}
+{"Comment"="", "Score"="(14.0/14.0)", "Submission"="", "Due"="9/9/19", "Assessment"="Quiz quiz, 1/3"}
+{"Comment"="", "Score"="(27.0/29.0)", "Submission"="", "Due"="9/13/19", "Assessment"="Test test, unit 1"}
+{"Submission"="", "Due"="9/17/19", "Assessment"="extra credit extra credit"}
+{"Comment"="", "Score"="(27.0/30.0)", "Submission"="", "Due"="9/18/19", "Assessment"="essay essay, unit 1"}
+{"Comment"="", "Score"="(15.0/15.0)", "Submission"="", "Due"="9/23/19", "Assessment"="Quiz quiz, 2/1"}
+{"Comment"="", "Score"="(30.0/30.0)", "Submission"="", "Due"="9/27/19", "Assessment"="groupwork critical period simulation"}
+{"Comment"="", "Score"="(27.0/30.0)", "Submission"="", "Due"="10/7/19", "Assessment"="essay essay, unit 2"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/7/19", "Assessment"="Homework zinn, chap 11"}
+{"Comment"="", "Score"="(11.0/13.0)", "Submission"="", "Due"="10/14/19", "Assessment"="Quiz quiz, 2/4"}
+{"Comment"="", "Score"="(25.0/30.0)", "Submission"="", "Due"="10/18/19", "Assessment"="Test test, unit 2"}
+{"Comment"="", "Score"="(15.0/15.0)", "Submission"="", "Due"="10/18/19", "Assessment"="Discussion soc sem, unit 2"}
+{"Comment"="", "Score"="(12.0/12.0)", "Submission"="", "Due"="10/28/19", "Assessment"="Quiz quiz, 3/1"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/28/19", "Assessment"="Discussion zinn, chap 1"}
+{"Comment"="", "Score"="(22.0/35.0)", "Submission"="", "Due"="11/4/19", "Assessment"="essay essay, unit 3"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="11/8/19", "Assessment"="Quiz quiz, 3/3"}
+{"Comment"="", "Score"="(15.0/15.0)", "Submission"="", "Due"="11/18/19", "Assessment"="Discussion soc. sem, #2"}
+{"Comment"="", "Score"="(28.0/29.0)", "Submission"="", "Due"="11/18/19", "Assessment"="Test test, unit 3"}
+{"Comment"="", "Score"="(10.0/12.0)", "Submission"="", "Due"="11/22/19", "Assessment"="Quiz quiz, 4/1"}
+{"Comment"="", "Score"="(10.0/12.0)", "Submission"="", "Due"="12/3/19", "Assessment"="Quiz quiz, 4/2"}
+{"Comment"="", "Score"="(27.0/30.0)", "Submission"="", "Due"="12/9/19", "Assessment"="essay essay, unit 4"}
+{"Comment"="", "Score"="(22.0/29.0)", "Submission"="", "Due"="12/16/19", "Assessment"="Test test, unit 4"}
+{"Comment"="", "Score"="(20.0/15.0)", "Submission"="", "Due"="12/16/19", "Assessment"="Discussion soc sem, unit 4"}
 
-US History AP
-{Comment=, Score=(15.0/15.0), Submission=, Due=8/26/19, Assessment=groupwork colony infomercial}
-{Comment=, Score=(13.0/13.0), Submission=, Due=8/26/19, Assessment=Quiz quiz, 1/1}
-{Comment=, Score=(10.0/10.0), Submission=, Due=8/26/19, Assessment=Homework syllabus}
-{Comment=, Score=(10.0/12.0), Submission=, Due=9/2/19, Assessment=Quiz Quiz, 1/2}
-{Comment=, Score=(12.0/14.0), Submission=, Due=9/9/19, Assessment=Quiz quiz, 1/3}
-{Comment=, Score=(26.0/29.0), Submission=, Due=9/13/19, Assessment=Test test, unit 1}
-{Submission=, Due=9/17/19, Assessment=extra credit extra credit}
-{Comment=, Score=(25.0/30.0), Submission=, Due=9/18/19, Assessment=essay essay, unit 1}
-{Comment=, Score=(15.0/15.0), Submission=, Due=9/23/19, Assessment=Quiz quiz, 2/1}
-{Comment=, Score=(30.0/30.0), Submission=, Due=9/27/19, Assessment=groupwork critical period simulation}
-{Comment=, Score=(25.0/30.0), Submission=, Due=10/7/19, Assessment=essay essay, unit 2}
-{Comment=, Score=(10.0/10.0), Submission=, Due=10/7/19, Assessment=Homework zinn, chap 11}
-{Comment=, Score=(9.5/13.0), Submission=, Due=10/14/19, Assessment=Quiz quiz, 2/4}
-{Comment=, Score=(23.0/30.0), Submission=, Due=10/18/19, Assessment=Test test, unit 2}
-{Comment=, Score=(10.0/15.0), Submission=, Due=10/18/19, Assessment=Discussion soc sem, unit 2}
-{Comment=, Score=(10.0/12.0), Submission=, Due=10/28/19, Assessment=Quiz quiz, 3/1}
-{Comment=, Score=(10.0/10.0), Submission=, Due=10/28/19, Assessment=Discussion zinn, chap 1}
-{Comment=, Score=(35.0/35.0), Submission=, Due=11/4/19, Assessment=essay essay, unit 3}
-{Comment=, Score=(10.0/10.0), Submission=, Due=11/8/19, Assessment=Quiz quiz, 3/3}
-{Comment=, Score=(10.0/15.0), Submission=, Due=11/18/19, Assessment=Discussion soc. sem, #2}
-{Comment=, Score=(29.0/29.0), Submission=, Due=11/18/19, Assessment=Test test, unit 3}
-{Comment=, Score=(11.0/12.0), Submission=, Due=11/22/19, Assessment=Quiz quiz, 4/1}
-{Comment=, Score=(10.0/12.0), Submission=, Due=12/3/19, Assessment=Quiz quiz, 4/2}
-{Comment=, Score=(15.0/30.0), Submission=, Due=12/9/19, Assessment=essay essay, unit 4}
-{Comment=, Score=(23.0/29.0), Submission=, Due=12/16/19, Assessment=Test test, unit 4}
-{Comment=, Score=(20.0/15.0), Submission=, Due=12/16/19, Assessment=Discussion soc sem, unit 4}
+Physics AP 90.5
+{"Comment"="", "Score"="(4.8/5.0)", "Submission"="", "Due"="8/21/19", "Assessment"="Problem Solving Grp Student Info", "Grade"="Score: A"}
+{"Comment"="", "Score"="(4.8/5.0)", "Submission"="", "Due"="8/21/19", "Assessment"="Problem Solving Grp Materials", "Grade"="Score: A"}
+{"Comment"="", "Score"="(4.8/5.0)", "Submission"="", "Due"="8/21/19", "Assessment"="Problem Solving Grp Expectations Qs", "Grade"="Score: A"}
+{"Comment"="", "Score"="(33.2/50.0)", "Submission"="", "Due"="8/23/19", "Assessment"="Assignment Notebook Ch.1 Homework", "Grade"="Score: C-"}
+{"Comment"="", "Score"="(40.0/50.0)", "Submission"="", "Due"="8/23/19", "Assessment"="Tests Quizzes Summer Test MC", "Grade"="Score: B"}
+{"Comment"="", "Score"="(4.8/5.0)", "Submission"="", "Due"="8/26/19", "Assessment"="Problem Solving Grp Equipment Contract", "Grade"="Score: A"}
+{"Comment"="", "Score"="(41.2/50.0)", "Submission"="", "Due"="8/27/19", "Assessment"="Tests Quizzes Summer Test FRQ", "Grade"="Score: B"}
+{"Comment"="", "Score"="(100.0/100.0)", "Submission"="", "Due"="9/11/19", "Assessment"="Tests Quizzes Calculus Test", "Grade"="Score: A+"}
+{"Comment"="", "Score"="(48.2/50.0)", "Submission"="", "Due"="9/25/19", "Assessment"="Labs Activities Activity Diff & Integration", "Grade"="Score: A"}
+{"Comment"="", "Score"="(96.5/100.0)", "Submission"="", "Due"="9/25/19", "Assessment"="Assignment Notebook Ch.X Homework", "Grade"="Score: A"}
+{"Comment"="", "Score"="(48.2/50.0)", "Submission"="", "Due"="9/25/19", "Assessment"="Tests Quizzes Ch.2 Quiz", "Grade"="Score: A"}
+{"Comment"="", "Score"="(100.0/100.0)", "Submission"="", "Due"="9/25/19", "Assessment"="Tests Quizzes Ch.2 Test", "Grade"="Score: A+"}
+{"Comment"="", "Score"="(4.8/5.0)", "Submission"="", "Due"="10/7/19", "Assessment"="Problem Solving Grp Binder Check 1", "Grade"="Score: A"}
+{"Comment"="", "Score"="(4.8/5.0)", "Submission"="", "Due"="10/7/19", "Assessment"="Problem Solving Grp Lab Notebook Check 1", "Grade"="Score: A"}
+{"Comment"="", "Score"="(96.5/100.0)", "Submission"="", "Due"="10/7/19", "Assessment"="Assignment Notebook Ch.2 Homework", "Grade"="Score: A"}
+{"Comment"="", "Score"="(82.5/100.0)", "Submission"="", "Due"="10/7/19", "Assessment"="Tests Quizzes Ch.3 Test", "Grade"="Score: B"}
+{"Comment"="", "Score"="(9.6/10.0)", "Submission"="", "Due"="10/7/19", "Assessment"="Assignment Notebook Ch.2 Test Reflection", "Grade"="Score: A"}
+{"Comment"="", "Score"="(48.2/50.0)", "Submission"="", "Due"="10/7/19", "Assessment"="Assignment Notebook Ch.3 Homework", "Grade"="Score: A"}
+{"Comment"="", "Score"="(96.5/100.0)", "Submission"="", "Due"="10/7/19", "Assessment"="Labs Activities Lab - Calculus", "Grade"="Score: A"}
+{"Comment"="", "Score"="(45.7/50.0)", "Submission"="", "Due"="10/9/19", "Assessment"="Tests Quizzes Ch.4 Quiz", "Grade"="Score: A-"}
+{"Comment"="", "Score"="(9.6/10.0)", "Submission"="", "Due"="10/11/19", "Assessment"="Assignment Notebook Ch.3 Test Reflection", "Grade"="Score: A"}
+{"Comment"="", "Score"="(24.1/25.0)", "Submission"="", "Due"="10/23/19", "Assessment"="Problem Solving Grp Ch.4 Study Group", "Grade"="Score: A"}
+{"Comment"="", "Score"="(91.5/100.0)", "Submission"="", "Due"="10/23/19", "Assessment"="Tests Quizzes Ch.4 Test", "Grade"="Score: A-"}
+{"Comment"="", "Score"="(50.0/50.0)", "Submission"="", "Due"="10/23/19", "Assessment"="Tests Quizzes Ch.5 Quiz", "Grade"="Score: A+"}
+{"Comment"="", "Score"="(100.0/100.0)", "Submission"="", "Due"="10/23/19", "Assessment"="Problem Solving Grp Ch.4 PSG", "Grade"="Score: A+"}
+{"Comment"="", "Score"="(82.5/100.0)", "Submission"="", "Due"="10/23/19", "Assessment"="Assignment Notebook Ch.4 Homework", "Grade"="Score: B"}
+{"Comment"="", "Score"="(41.2/50.0)", "Submission"="", "Due"="10/25/19", "Assessment"="Labs Activities Activity - a Due to g", "Grade"="Score: B"}
+{"Comment"="", "Score"="(9.6/10.0)", "Submission"="", "Due"="10/25/19", "Assessment"="Assignment Notebook Ch.4 Test Reflection", "Grade"="Score: A"}
+{"Comment"="", "Score"="(24.1/25.0)", "Submission"="", "Due"="11/4/19", "Assessment"="Problem Solving Grp Ch.5 Study Grp Part 1", "Grade"="Score: A"}
+{"Comment"="", "Score"="(4.8/5.0)", "Submission"="", "Due"="11/4/19", "Assessment"="Problem Solving Grp Binder Check 2", "Grade"="Score: A"}
+{"Comment"="", "Score"="(82.5/100.0)", "Submission"="", "Due"="11/7/19", "Assessment"="Tests Quizzes Ch.5 Test", "Grade"="Score: B"}
+{"Comment"="", "Score"="(48.2/50.0)", "Submission"="", "Due"="11/15/19", "Assessment"="Tests Quizzes Ch.6 Quiz", "Grade"="Score: A"}
+{"Comment"="", "Score"="(100.0/100.0)", "Submission"="", "Due"="11/15/19", "Assessment"="Assignment Notebook Ch.5 Homework", "Grade"="Score: A+"}
+{"Comment"="", "Score"="(100.0/100.0)", "Submission"="", "Due"="11/15/19", "Assessment"="Problem Solving Grp Ch.5 PSG", "Grade"="Score: A+"}
+{"Comment"="", "Score"="(9.6/10.0)", "Submission"="", "Due"="11/22/19", "Assessment"="Assignment Notebook Ch.5 Test Reflection", "Grade"="Score: A"}
+{"Comment"="", "Score"="(77.5/100.0)", "Submission"="", "Due"="11/22/19", "Assessment"="Tests Quizzes Ch.6 Test", "Grade"="Score: B-"}
+{"Comment"="", "Score"="(96.5/100.0)", "Submission"="", "Due"="12/12/19", "Assessment"="Assignment Notebook Ch.6 Homework", "Grade"="Score: A"}
+{"Comment"="", "Score"="(100.0/100.0)", "Submission"="", "Due"="12/12/19", "Assessment"="Problem Solving Grp Ch.6 PSG", "Grade"="Score: A+"}
+{"Comment"="", "Score"="(9.6/10.0)", "Submission"="", "Due"="12/12/19", "Assessment"="Assignment Notebook Ch.6 Test Reflection", "Grade"="Score: A"}
+{"Comment"="", "Score"="(96.5/100.0)", "Submission"="", "Due"="12/12/19", "Assessment"="Assignment Notebook Ch.7 Homework", "Grade"="Score: A"}
+{"Comment"="", "Score"="(48.2/50.0)", "Submission"="", "Due"="12/12/19", "Assessment"="Tests Quizzes Ch.7 Quiz", "Grade"="Score: A"}
+{"Comment"="", "Score"="(66.5/100.0)", "Submission"="", "Due"="12/12/19", "Assessment"="Tests Quizzes Ch.7 Test", "Grade"="Score: C-"}
+{"Comment"="", "Score"="(9.6/10.0)", "Submission"="", "Due"="12/12/19", "Assessment"="Assignment Notebook Ch.7 Test Reflection", "Grade"="Score: A"}
+{"Comment"="", "Score"="(48.2/50.0)", "Submission"="", "Due"="12/12/19", "Assessment"="Labs Activities Activity - Atwood Machine", "Grade"="Score: A"}
+{"Comment"="", "Score"="(96.5/100.0)", "Submission"="", "Due"="12/12/19", "Assessment"="Labs Activities Lab - Air Resistance", "Grade"="Score: A"}
 
-Physics AP
-{Comment=, Score=(4.8/5.0), Submission=, Due=8/21/19, Assessment=Problem Solving Grp Student Info, Grade=Score: A}
-{Comment=, Score=(4.8/5.0), Submission=, Due=8/21/19, Assessment=Problem Solving Grp Materials, Grade=Score: A}
-{Comment=, Score=(4.8/5.0), Submission=, Due=8/21/19, Assessment=Problem Solving Grp Expectations Qs, Grade=Score: A}
-{Comment=, Score=(48.2/50.0), Submission=, Due=8/23/19, Assessment=Assignment Notebook Ch.1 Homework, Grade=Score: A}
-{Comment=, Score=(48.0/50.0), Submission=, Due=8/23/19, Assessment=Tests Quizzes Summer Test MC, Grade=Score: A}
-{Comment=, Score=(4.8/5.0), Submission=, Due=8/26/19, Assessment=Problem Solving Grp Equipment Contract, Grade=Score: A}
-{Comment=, Score=(38.7/50.0), Submission=, Due=8/27/19, Assessment=Tests Quizzes Summer Test FRQ, Grade=Score: B-}
-{Comment=, Score=(85.0/100.0), Submission=, Due=9/11/19, Assessment=Tests Quizzes Calculus Test, Grade=Score: B+}
-{Comment=, Score=(48.2/50.0), Submission=, Due=9/25/19, Assessment=Labs Activities Activity Diff & Integration, Grade=Score: A}
-{Comment=, Score=(91.5/100.0), Submission=, Due=9/25/19, Assessment=Assignment Notebook Ch.X Homework, Grade=Score: A-}
-{Comment=, Score=(48.2/50.0), Submission=, Due=9/25/19, Assessment=Tests Quizzes Ch.2 Quiz, Grade=Score: A}
-{Comment=, Score=(70.0/100.0), Submission=, Due=9/25/19, Assessment=Tests Quizzes Ch.2 Test, Grade=Score: C}
-{Comment=, Score=(4.8/5.0), Submission=, Due=10/7/19, Assessment=Problem Solving Grp Binder Check 1, Grade=Score: A}
-{Comment=, Score=(4.5/5.0), Submission=, Due=10/7/19, Assessment=Problem Solving Grp Lab Notebook Check 1, Grade=Score: A-}
-{Comment=, Score=(91.5/100.0), Submission=, Due=10/7/19, Assessment=Assignment Notebook Ch.2 Homework, Grade=Score: A-}
-{Comment=, Score=(96.5/100.0), Submission=, Due=10/7/19, Assessment=Tests Quizzes Ch.3 Test, Grade=Score: A}
-{Comment=, Score=(9.6/10.0), Submission=, Due=10/7/19, Assessment=Assignment Notebook Ch.2 Test Reflection, Grade=Score: A}
-{Comment=, Score=(48.2/50.0), Submission=, Due=10/7/19, Assessment=Assignment Notebook Ch.3 Homework, Grade=Score: A}
-{Comment=, Score=(96.5/100.0), Submission=, Due=10/7/19, Assessment=Labs Activities Lab - Calculus, Grade=Score: A}
-{Comment=, Score=(48.2/50.0), Submission=, Due=10/9/19, Assessment=Tests Quizzes Ch.4 Quiz, Grade=Score: A}
-{Comment=, Score=(9.6/10.0), Submission=, Due=10/11/19, Assessment=Assignment Notebook Ch.3 Test Reflection, Grade=Score: A}
-{Comment=, Score=(24.1/25.0), Submission=, Due=10/23/19, Assessment=Problem Solving Grp Ch.4 Study Group, Grade=Score: A}
-{Comment=, Score=(82.5/100.0), Submission=, Due=10/23/19, Assessment=Tests Quizzes Ch.4 Test, Grade=Score: B}
-{Comment=, Score=(50.0/50.0), Submission=, Due=10/23/19, Assessment=Tests Quizzes Ch.5 Quiz, Grade=Score: A+}
-{Comment=, Score=(100.0/100.0), Submission=, Due=10/23/19, Assessment=Problem Solving Grp Ch.4 PSG, Grade=Score: A+}
-{Comment=, Score=(91.5/100.0), Submission=, Due=10/23/19, Assessment=Assignment Notebook Ch.4 Homework, Grade=Score: A-}
-{Comment=, Score=(48.2/50.0), Submission=, Due=10/25/19, Assessment=Labs Activities Activity - a Due to g, Grade=Score: A}
-{Comment=, Score=(9.6/10.0), Submission=, Due=10/25/19, Assessment=Assignment Notebook Ch.4 Test Reflection, Grade=Score: A}
-{Comment=, Score=(24.1/25.0), Submission=, Due=11/4/19, Assessment=Problem Solving Grp Ch.5 Study Grp Part 1, Grade=Score: A}
-{Comment=, Score=(4.8/5.0), Submission=, Due=11/4/19, Assessment=Problem Solving Grp Binder Check 2, Grade=Score: A}
-{Comment=, Score=(91.5/100.0), Submission=, Due=11/7/19, Assessment=Tests Quizzes Ch.5 Test, Grade=Score: A-}
-{Comment=, Score=(48.2/50.0), Submission=, Due=11/15/19, Assessment=Tests Quizzes Ch.6 Quiz, Grade=Score: A}
-{Comment=, Score=(100.0/100.0), Submission=, Due=11/15/19, Assessment=Assignment Notebook Ch.5 Homework, Grade=Score: A+}
-{Comment=, Score=(100.0/100.0), Submission=, Due=11/15/19, Assessment=Problem Solving Grp Ch.5 PSG, Grade=Score: A+}
-{Comment=, Score=(9.6/10.0), Submission=, Due=11/22/19, Assessment=Assignment Notebook Ch.5 Test Reflection, Grade=Score: A}
-{Comment=, Score=(91.5/100.0), Submission=, Due=11/22/19, Assessment=Tests Quizzes Ch.6 Test, Grade=Score: A-}
-{Comment=, Score=(96.5/100.0), Submission=, Due=12/12/19, Assessment=Assignment Notebook Ch.6 Homework, Grade=Score: A}
-{Comment=, Score=(86.0/100.0), Submission=, Due=12/12/19, Assessment=Problem Solving Grp Ch.6 PSG, Grade=Score: B+}
-{Comment=, Score=(9.6/10.0), Submission=, Due=12/12/19, Assessment=Assignment Notebook Ch.6 Test Reflection, Grade=Score: A}
-{Comment=, Score=(96.5/100.0), Submission=, Due=12/12/19, Assessment=Assignment Notebook Ch.7 Homework, Grade=Score: A}
-{Comment=, Score=(41.2/50.0), Submission=, Due=12/12/19, Assessment=Tests Quizzes Ch.7 Quiz, Grade=Score: B}
-{Comment=, Score=(82.5/100.0), Submission=, Due=12/12/19, Assessment=Tests Quizzes Ch.7 Test, Grade=Score: B}
-{Comment=, Score=(9.6/10.0), Submission=, Due=12/12/19, Assessment=Assignment Notebook Ch.7 Test Reflection, Grade=Score: A}
-{Comment=, Score=(48.2/50.0), Submission=, Due=12/12/19, Assessment=Labs Activities Activity - Atwood Machine, Grade=Score: A}
-{Comment=, Score=(96.5/100.0), Submission=, Due=12/12/19, Assessment=Labs Activities Lab - Air Resistance, Grade=Score: A}
+AP Statistics 90.82
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="8/26/19", "Assessment"="AP Stats Homework Homework #1.A"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="9/4/19", "Assessment"="AP Stats Homework Homework #1.B"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="9/9/19", "Assessment"="AP Stats Homework Homework #1.C"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="9/11/19", "Assessment"="AP Stats Vocabulary Tests Unit 1 Vocabulary Test"}
+{"Comment"="", "Score"="(63.8/72.0)", "Submission"="", "Due"="9/13/19", "Assessment"="AP Stats Tests Unit 1 Test"}
+{"Comment"="", "Score"="(17.0/20.0)", "Submission"="", "Due"="9/23/19", "Assessment"="AP Stats Homework Homework #2.A"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="9/30/19", "Assessment"="AP Stats Homework Homework #2.B"}
+{"Submission"="", "Due"="10/7/19", "Assessment"="AP Stats Tests Guess the Correlation Game EC"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="10/7/19", "Assessment"="AP Stats Homework Homework #2.C"}
+{"Comment"="", "Score"="(15.0/15.0)", "Submission"="", "Due"="10/9/19", "Assessment"="AP Stats Vocabulary Tests Unit 2 Vocabulary Test"}
+{"Comment"="", "Score"="(59.9/72.0)", "Submission"="", "Due"="10/11/19", "Assessment"="AP Stats Tests Unit 2 Test"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="10/21/19", "Assessment"="AP Stats Homework Homework #3.A"}
+{"Comment"="", "Score"="(36.0/36.0)", "Submission"="", "Due"="10/28/19", "Assessment"="AP Stats Tests Units 1-2 Spiral Test"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="10/28/19", "Assessment"="AP Stats Homework Homework #3.B"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="11/4/19", "Assessment"="AP Stats Homework Homework #3.C"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="11/6/19", "Assessment"="AP Stats Vocabulary Tests Unit 3 Vocabulary Test"}
+{"Comment"="", "Score"="(62.0/72.0)", "Submission"="", "Due"="11/8/19", "Assessment"="AP Stats Tests Unit 3 Test"}
+{"Comment"="", "Score"="(19.0/20.0)", "Submission"="", "Due"="11/18/19", "Assessment"="AP Stats Homework Homework #4.A"}
+{"Comment"="", "Score"="(54.0/54.0)", "Submission"="", "Due"="11/25/19", "Assessment"="AP Stats Tests Units 1-3 Spiral Test"}
+{"Comment"="", "Score"="(10.0/20.0)", "Submission"="", "Due"="11/25/19", "Assessment"="AP Stats Homework Homework #4.B"}
+{"Comment"="", "Score"="(20.0/20.0)", "Submission"="", "Due"="11/27/19", "Assessment"="AP Stats Homework Homework #4.C"}
+{"Submission"="", "Due"="12/2/19", "Assessment"="AP Stats Homework Homework Pass EC"}
+{"Comment"="", "Score"="(23.5/25.0)", "Submission"="", "Due"="12/4/19", "Assessment"="AP Stats Vocabulary Tests Unit 4 Vocabulary Test"}
+{"Comment"="", "Score"="(52.4/66.0)", "Submission"="", "Due"="12/6/19", "Assessment"="AP Stats Tests Unit 4 Test"}
 
-Spanish 4 H
-{Comment=, Score=(30.0/30.0), Submission=, Due=8/23/19, Assessment=Participation/Preparedness Participation Week 1}
-{Comment=, Score=(30.0/30.0), Submission=, Due=8/30/19, Assessment=Participation/Preparedness Participation Week 2}
-{Comment=, Score=(20.0/20.0), Submission=, Due=9/3/19, Assessment=Participation/Preparedness Galería de creadores 1}
-{Comment=See me for feedback., Score=(20.0/22.0), Submission=, Due=9/3/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Prueba oral (Lección 1)}
-{Comment=, Score=(49.0/52.0), Submission=, Due=9/5/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Examen lección 1}
-{Comment=, Score=(30.0/30.0), Submission=, Due=9/6/19, Assessment=Participation/Preparedness Participation Week 3}
-{Comment=, Score=(10.0/10.0), Submission=, Due=9/12/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Oral ?s (Lección 2)}
-{Comment=, Score=(30.0/30.0), Submission=, Due=9/16/19, Assessment=Participation/Preparedness Participation Week 4}
-{Comment=, Score=(28.0/33.0), Submission=, Due=9/23/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Prueba (acentos, pretérito)}
-{Comment=, Score=(15.0/15.0), Submission=, Due=9/26/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Exámen oral opción 1}
-{Comment=, Score=(60.0/60.0), Submission=, Due=9/30/19, Assessment=Participation/Preparedness Participation Weeks 5 and 6}
-{Comment=, Score=(10.0/10.0), Submission=, Due=10/3/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Eval oral rápida (Lección 3)}
-{Comment=, Score=(35.0/35.0), Submission=, Due=10/8/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Prueba de mandatos (todas las formas)}
-{Comment=, Score=(30.0/30.0), Submission=, Due=10/14/19, Assessment=Participation/Preparedness Participation Week 8}
-{Comment=, Score=(10.0/10.0), Submission=, Due=10/15/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Quick Oral Eval 1 - Subjuntivo}
-{Comment=, Score=(20.0/20.0), Submission=, Due=10/15/19, Assessment=Participation/Preparedness Lección 3 Galería de creadores}
-{Comment=, Score=(30.0/30.0), Submission=, Due=10/28/19, Assessment=Participation/Preparedness Participation Week 10}
-{Comment=, Score=(40.0/40.0), Submission=, Due=10/29/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Póster Lección 3}
-{Comment=, Score=(40.0/40.0), Submission=, Due=10/31/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Presentación oral lección 3 (póster)}
-{Comment=, Score=(30.0/30.0), Submission=, Due=11/4/19, Assessment=Participation/Preparedness Participation Week 11}
-{Comment=, Score=(29.0/35.0), Submission=, Due=11/5/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Examen Lecc 3 (OD/OI)}
-{Comment=, Score=(60.0/62.0), Submission=, Due=11/5/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Examen Lección 3 (Study Guide)}
-{Comment=, Score=(60.0/60.0), Submission=, Due=11/18/19, Assessment=Participation/Preparedness Participation Weeks 11 and 12}
-{Comment=, Score=(50.0/50.0), Submission=, Due=11/28/19, Assessment=Participation/Preparedness Participation Weeks 13 and 14}
-{Comment=, Score=(20.0/20.0), Submission=, Due=12/2/19, Assessment=Participation/Preparedness Lección 4 (Galería de creadores)}
-{Comment=, Score=(16.0/21.0), Submission=, Due=12/5/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Prueba de subjuntivo (L4) y reflexivos}
-{Comment=, Score=(30.0/30.0), Submission=, Due=12/6/19, Assessment=Participation/Preparedness Participation Week 16}
-{Comment=Excelente. Leíste mucho, pero excelente., Score=(41.0/46.0), Submission=, Due=12/9/19, Assessment=Performance (Oral exams, Projects, Tests, Quizzes, Final exam) Lección 4 (Presentación oral)}
+AP Environ Science 90.0
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="8/26/19", "Assessment"="Problem Set Silent Spring SW"}
+{"Submission"="", "Due"="8/27/19", "Assessment"="Reading Quiz RQ 1.1"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="9/5/19", "Assessment"="Problem Set PS 2"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="9/5/19", "Assessment"="Problem Set Conventional Farming Slide"}
+{"Comment"="", "Score"="(9.0/10.0)", "Submission"="", "Due"="9/9/19", "Assessment"="Reading Quiz RQ 1.2"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="9/9/19", "Assessment"="Problem Set LD50 CER"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="9/9/19", "Assessment"="Problem Set Sustainable Farming Ad"}
+{"Submission"="", "Due"="9/12/19", "Assessment"="Reading Quiz RQ 1.3"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="9/16/19", "Assessment"="Problem Set PS 3"}
+{"Comment"="", "Score"="(9.5/10.0)", "Submission"="", "Due"="9/17/19", "Assessment"="Tests Unit 1 Test"}
+{"Comment"="", "Score"="(9.0/10.0)", "Submission"="", "Due"="9/23/19", "Assessment"="Reading Quiz RQ 2.1"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="9/24/19", "Assessment"="Problem Set PS 4"}
+{"Comment"="", "Score"="(8.0/10.0)", "Submission"="", "Due"="9/26/19", "Assessment"="Reading Quiz RQ 2.2"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="9/26/19", "Assessment"="Problem Set Ted Talk: Overpopulation"}
+{"Comment"="", "Score"="(4.0/10.0)", "Submission"="", "Due"="9/30/19", "Assessment"="Written Assessment CER 1: Biochar"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/2/19", "Assessment"="Problem Set PS 5"}
+{"Comment"="", "Score"="(9.0/10.0)", "Submission"="", "Due"="10/3/19", "Assessment"="Reading Quiz RQ 2.3"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/7/19", "Assessment"="Problem Set PS 6"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/7/19", "Assessment"="Problem Set Estimating Population Size"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/10/19", "Assessment"="Problem Set Duckweed CER"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/17/19", "Assessment"="Tests Unit 2 Test"}
+{"Comment"="", "Score"="(8.0/10.0)", "Submission"="", "Due"="10/17/19", "Assessment"="Written Assessment CER 2: Invasive"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/21/19", "Assessment"="Problem Set Video: World in Balance"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/21/19", "Assessment"="Problem Set Owl Pellet Dissection"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/24/19", "Assessment"="Problem Set PS 7"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/24/19", "Assessment"="Problem Set Biogeochemical Cycles"}
+{"Comment"="", "Score"="(9.0/10.0)", "Submission"="", "Due"="10/28/19", "Assessment"="Reading Quiz RQ 3.1"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="10/28/19", "Assessment"="Problem Set PS 8"}
+{"Comment"="", "Score"="(9.0/10.0)", "Submission"="", "Due"="10/29/19", "Assessment"="Reading Quiz RQ 3.2"}
+{"Comment"="", "Score"="(30.0/30.0)", "Submission"="", "Due"="10/29/19", "Assessment"="Problem Set Biome Diorama"}
+{"Comment"="", "Score"="(8.0/10.0)", "Submission"="", "Due"="11/6/19", "Assessment"="Reading Quiz RQ 3.3"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="11/8/19", "Assessment"="Problem Set PS 10"}
+{"Comment"="", "Score"="(9.5/10.0)", "Submission"="", "Due"="11/11/19", "Assessment"="Tests Unit 3 Test"}
+{"Comment"="", "Score"="(7.0/10.0)", "Submission"="", "Due"="11/12/19", "Assessment"="Written Assessment CER 3: Biogeography"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="11/19/19", "Assessment"="Problem Set PS 11"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="11/19/19", "Assessment"="Problem Set Soil Sample"}
+{"Comment"="", "Score"="(9.0/10.0)", "Submission"="", "Due"="11/21/19", "Assessment"="Reading Quiz RQ 4.1"}
+{"Comment"="", "Score"="(7.0/10.0)", "Submission"="", "Due"="11/25/19", "Assessment"="Reading Quiz RQ 4.2"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="11/28/19", "Assessment"="Problem Set Land Use Simulation"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="12/3/19", "Assessment"="Problem Set PS 12"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="12/5/19", "Assessment"="Reading Quiz RQ 4.3"}
+{"Comment"="", "Score"="(10.0/10.0)", "Submission"="", "Due"="12/11/19", "Assessment"="Written Assessment FRQ Graded"}
+{"Comment"="", "Score"="(9.5/10.0)", "Submission"="", "Due"="12/13/19", "Assessment"="Tests Unit 4 Test"}

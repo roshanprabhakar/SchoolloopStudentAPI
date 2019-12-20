@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d669f5f7-80d5-4e0d-a9b4-7a4707c0c9cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/classtemplates/APUSH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transfer.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRADES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GRADES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Entry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utilities/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utilities/Scraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/Scraper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utilities/WeightedBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utilities/WeightedBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classtemplates/APLAC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classtemplates/APLAC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classtemplates/PhysicsAP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classtemplates/PhysicsAP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temp.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +112,7 @@
       <workItem from="1576117678212" duration="8606000" />
       <workItem from="1576192191815" duration="13731000" />
       <workItem from="1576266157107" duration="18715000" />
-      <workItem from="1576360489428" duration="1574000" />
+      <workItem from="1576360489428" duration="22603000" />
     </task>
     <task id="LOCAL-00001" summary="added block name collection">
       <created>1576223635289</created>
@@ -158,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576361670925</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added template for APLAC and demo to main">
+      <created>1576362129110</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576362129110</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +197,7 @@
     <MESSAGE value="added template usage for APLAC" />
     <MESSAGE value="added clarifications to BLOCK" />
     <MESSAGE value="added Physics class template and demo in main" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Physics class template and demo in main" />
+    <MESSAGE value="added template for APLAC and demo to main" />
+    <option name="LAST_COMMIT_MESSAGE" value="added template for APLAC and demo to main" />
   </component>
 </project>

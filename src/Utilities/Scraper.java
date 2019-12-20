@@ -12,13 +12,8 @@ import java.util.List;
 
 public class Scraper {
 
-    private String USERNAME;
-    private String PASSWORD;
 
-    private static final int FLEX_INDEX = 2;
-    private static final int BLOCK_COUNT = 6;
-
-    public static HashMap<String, Block> scrapeGradeData(String USERNAME, String PASSWORD) throws InterruptedException {
+    public static HashMap<String, Block> scrapeGradeData(String USERNAME, String PASSWORD, int FLEX_INDEX, int BLOCK_COUNT) throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver", "chromedriver78");
         WebDriver driver = new ChromeDriver();

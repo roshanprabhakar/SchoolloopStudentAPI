@@ -27,9 +27,12 @@ public abstract class WeightedBlock extends Block {
         double total = 0;
         for (Entry entry : entries) {
             if (Utils.belongsTo(category, entry.get("Assessment").toString())) {
-                Score score = Score.readScore(entry.get("Score").toString());
-                earned += score.getEarned();
-                total += score.getPossible();
+                try {
+                    Score score = Score.readScore(entry.get("Score").toString());
+                    earned += score.getEarned();
+                    total += score.getPossible();
+                } catch (NullPointerException e) {
+                }
             }
         }
         return new Score(earned, total);

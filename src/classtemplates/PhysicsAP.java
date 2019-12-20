@@ -11,9 +11,9 @@ public class PhysicsAP extends WeightedBlock {
 
     @Override
     public void defineCategories() {
-        categories.put("Tests Quizzes", 0.7);
-        categories.put("Labs Activities", 0.15);
-        categories.put("Assignment Notebook", 0.1);
+        categories.put("Tests Quizzes", 0.6);
+        categories.put("Labs Activities", 0.2);
+        categories.put("Assignment Notebook", 0.15);
         categories.put("Problem Solving Grp", 0.05);
     }
 }
